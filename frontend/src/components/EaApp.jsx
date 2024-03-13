@@ -28,11 +28,11 @@ const EaApp = () => {
   return (
     <div className="new-form-container">
       <form onSubmit={handleSubmit} className="new-form">
-        <h1>New Form</h1>
+        <h1>Application Details</h1>
         <div className="form-group">
           <input
             type="text"
-            placeholder="Input 1"
+            placeholder="App Name"
             value={input1}
             onChange={handleInputChange1}
             className="form-control"
@@ -41,7 +41,7 @@ const EaApp = () => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Input 2"
+            placeholder="App CI"
             value={input2}
             onChange={handleInputChange2}
             className="form-control"
@@ -50,7 +50,7 @@ const EaApp = () => {
         <div className="form-group">
           <input
             type="text"
-            placeholder="Input 3"
+            placeholder="Git Repo"
             value={input3}
             onChange={handleInputChange3}
             className="form-control"
