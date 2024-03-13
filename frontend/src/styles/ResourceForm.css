@@ -1,0 +1,64 @@
+/* ResourceForm.css */
+
+.resource-form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .environment-card {
+    margin-bottom: 30px;
+  }
+  
+  .environment-card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .resource-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resource-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .resource-card input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .add-resource-button {
+    background-color: #02BC94;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .add-resource-button:hover {
+    background-color: #018374;
+  }
+  

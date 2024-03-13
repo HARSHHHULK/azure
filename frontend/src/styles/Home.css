@@ -1,0 +1,38 @@
+/* Home.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  
+  .card {
+    background-color: #ffffff; /* Light background color for the card */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 30px;
+  }
+  
+  .login-button {
+    display: inline-block;
+    background-color: #02BC94;
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 30px;
+    border-radius: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: 500;
+  }
+  
+  .login-button:hover {
+    background-color: #018374; /* Darker blue color on hover */
+  }
+  
